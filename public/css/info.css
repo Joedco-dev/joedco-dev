@@ -1,0 +1,196 @@
+a:hover {
+    color: #11181F;
+    text-shadow: 2px 2px 5px #0B3861;
+}
+
+li:hover {
+    color: white;
+    text-shadow: 1px 1px 2px #00BFFF, 0 0 5px #00BFFF, 0 0 3px #00BFFF;
+}
+
+#info 
+{
+    background: #11181F;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#info .contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-Desarrollo
+{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-Desarrollo img
+{
+    width: 30px;
+}
+
+
+.btn-primary 
+{
+  margin: 1em;
+}
+
+.btn-default 
+{
+  margin: 1em;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #00BFFF;  /*Sets the text hover color on navbar*/
+}
+
+  .navbar-default {
+    background-color: #0B3861;
+    border-color: #0080FF;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    border-top: 2px;
+    }
+
+  .navbar-default .navbar-nav > li > a {
+   color: #F2F2F2; /*Change active text color here*/
+    }
+
+.well {
+    background-color: #11181F;
+    border-color: #0080FF;
+    box-shadow: 4px 4px 4px;
+}
+
+
+.sidebar-nav-fixed {
+    background-color: #0B3861;
+    position:fixed;
+    top:90px;
+    width:10%;
+}
+
+@media (max-width: 767px) {
+    .sidebar-nav-fixed {
+        position:static;
+        width:auto;
+    }
+}
+
+@media (max-width: 979px) {
+    .sidebar-nav-fixed {
+        top:70px;
+    }
+}
+
+.transition {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.info-Desarrollo {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  left: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-left: 10x;
+  margin-top: 0px;
+}
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info-Desarrollo img {
+    width: 50px;
+  display: block;
+  width: 100%;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.info-Desarrollo: .h5 {
+  position: relative;
+  z-index: -1;
+  display: block;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.info-Desarrollo:hover img {
+  -webkit-transform: 0px -30px 0.5;
+  -moz-transform: 0px -30px 0.5;
+  -ms-transform: 0px -30px 0.5;
+  -o-transform: 0px -30px 0.5;
+  transform: 0px -30px 0.5;
+  transform: translate(0px, -30px) scale(0.7);
+  -webkit-transform: translate(0px, -30px) scale(0.7);
+  -moz-transform: translate(0px, -30px) scale(0.7);
+  -o-transform: translate(0px, -30px) scale(0.7);
+  -ms-transform: translate(0px, -30px) scale(0.7);
+}
+
+a:hover {
+    color: #11181F;
+    text-shadow: 2px 2px 5px #0B3861;
+}
+
+.info-Desarrollo:hover .h5 {
+  color: #11181F;
+  text-shadow: 2px 2px 5px #0B3861;
+  -webkit-transform: 0px 0px 2;
+  -moz-transform: 0px 0px 2;
+  -ms-transform: 0px 0px 2;
+  -o-transform: 0px 0px 2;
+  transform: 0px 0px 2;
+  transform: translate(0px, 0px) scale(2);
+  -webkit-transform: translate(0px, 0px) scale(2);
+  -moz-transform: translate(0px, 0px) scale(2);
+  -o-transform: translate(0px, 0px) scale(2);
+  -ms-transform: translate(0px, 0px) scale(2);
+}
+
+<img src=" {{ asset(student->imagen) }}">
